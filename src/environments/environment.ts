@@ -3,6 +3,14 @@ export const environment = {
   production: false,
   //firebase conta BancosDev
   firebase: {
+    /*apiKey: "AIzaSyAhonIahOUloEswOgYk0rjdDpzcTJF2QMk",
+    authDomain: "capacitacaofirebasecrud-3edb0.firebaseapp.com",
+    databaseURL: "https://capacitacaofirebasecrud-3edb0-default-rtdb.firebaseio.com",
+    projectId: "capacitacaofirebasecrud-3edb0",
+    storageBucket: "capacitacaofirebasecrud-3edb0.appspot.com",
+    messagingSenderId: "858448465455",
+    appId: "1:858448465455:web:0784abba08783f793580da",
+    measurementId: "G-TFC6HJT5HL"*/
     apiKey: "AIzaSyDeXzlL4zUc4FJgq94oIO4BnLnuVpj93b8",
     authDomain: "tutorial-e3acc.firebaseapp.com",
     projectId: "tutorial-e3acc",

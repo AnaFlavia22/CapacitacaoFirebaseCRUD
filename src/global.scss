@@ -25,11 +25,15 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 .content-basico {
-  --background: linear-gradient(180deg, #a0a0a0 40.61%, rgba(173, 173, 173, 0.692) 116.69%);;
+  --background: #fafafa;
+  height: 100%;
   --background-size: cover;
   z-index: 5;
   position: sticky;
+  font-family: 'Poppins', sans-serif;
 }
 
 .texto_tolbar {
@@ -64,22 +68,7 @@ ion-toolbar {
 }
 
 ion-back-button {
-  --color: #ffffff;
-}
-
-.input-login-cad {
-  font-weight: 400;
-  font-size: 17px;
-  background-color:#FFFFFF;
-  border-radius: 20px;
-  color: #000000;
-  margin-bottom: 15px;
-  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
-}
-
-.icon-login-cad {
-  margin-left: 9px;
-  width: 22px;
+  --color: #172a39;
 }
 
 /// css para as paginas de cadastro de informações
